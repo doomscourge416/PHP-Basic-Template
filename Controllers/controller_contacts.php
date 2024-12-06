@@ -1,9 +1,9 @@
 <?php 
 
-class Controller_Contacs extends Controller {
+class Controller_Contacts extends Controller {
 
     function action_index(){
-        $this->view->generate('contacts_view.php', 'template_view.php');
+        $this->view->generate('Contacts_View.php', 'Template_View.php');
     }
 
 }

@@ -3,7 +3,7 @@
 class Controller_Main extends Controller {
 
     function action_index(){
-        $this->view->generate('main_view.php', 'template_view.php');
+        $this->view->generate('Main_View.php', 'Template_View.php');
     }
     
 }
