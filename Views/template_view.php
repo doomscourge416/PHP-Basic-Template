@@ -3,11 +3,13 @@
     
     <head>
         <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Компания Компаний</title>
     </head>
 
     <body>
-        <header>
+        <!-- Меню перехода по прямым ссылкам (Отображения + Темплейт) -->
+        <header>       
             <nav>
                 <a href="/">Главная</a>
                 <a href="/about">О нас</a>
@@ -18,5 +20,6 @@
         <main>
         <?php include $content_view; ?>
         </main>
+
     </body>
 </html>
